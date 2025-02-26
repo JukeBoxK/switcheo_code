@@ -1,0 +1,11 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Coin Outline -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="black" stroke-width="4" stroke-dasharray="10,5"/>
+  
+  <!-- Question Mark -->
+  <text x="100" y="115" font-size="60" font-weight="bold" text-anchor="middle" fill="black" font-family="Arial">?</text>
+  
+  <!-- Accessibility -->
+  <title>Mystery Coin</title>
+  <desc>A transparent coin with a dashed outline and a black question mark in the center.</desc>
+</svg>

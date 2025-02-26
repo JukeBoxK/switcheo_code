@@ -1,0 +1,32 @@
+The issues are as follow:
+
+1. Missing blockchain field in WalletBalance.
+
+To resolve: Add a blockchain feild of type string
+
+2. FormattedWalletBalance can be considered a subtype of WalletBalance and not a separate inteface.
+
+To resolve: Extends WalletBalance with an extra field of format with type string
+
+3. Undefined Types for prices and setPrices: 
+
+To resolve: The types for prices and setPrices has been defined as { [key: string]: number } for the usestate to ensure type safety.
+
+4. Typo of console.err
+
+To resolve: Change spelling to console.error()
+
+5. The type of blockchain in getPriority function is any
+
+To resolve: Can be changed to string for more type safety
+
+6. lhsPriority undeclared in the first part of sorted balance filter
+
+To resolve: use the already decalred balancePriority variable
+
+7. Unnecessary dependcy of price in useMem
+
+To resolve: Remove price as the dependcy
+
+
+
